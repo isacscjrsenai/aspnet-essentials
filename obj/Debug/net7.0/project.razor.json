@@ -18645,6 +18645,11 @@
   "RootNamespace": "GerenciaTarefa",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\ALUNO\\Desktop\\aspnetfundamentos\\GerenciaTarefa\\Views\\Tarefa\\Index.cshtml",
+      "TargetPath": "Views\\Tarefa\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ALUNO\\Desktop\\aspnetfundamentos\\GerenciaTarefa\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

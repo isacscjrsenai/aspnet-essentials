@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Nova Tarefa";
+    var nome = "Isac Jr";
+    ViewData["taskName"] = "";
+
+    
+}
+
+<div class="text-center">
+    <h1 class="display-4">ASP .NET CORE - ESSENTIALS</h1>
+    <h2>@nome</h2>
+    <p> Registrar nova tarefa</p>
+</div>
+<form method='post'>
+  <div class="mb-3">
+    <label for="TaskName" class="form-label">Nome da Tarefa</label>
+    <input type="text" class="form-control" id="taskName" aria-describedby="taskHelp" value='@ViewData["taskName"]'>
+    <div id="taskHelp" class="form-text">Coloque um nome que resuma a tarefa</div>
+  </div>
+  <div class="mb-3">
+    <label for="TaskDate" class="form-label">Data</label>
+    <input type="date" class="form-control" id="taskDate" aria-describedby="dataHelp">
+    <div id="taskHelp" class="form-text">Coloque a data para finalizar a tarefa</div>
+  </div>
+  <div class="mb-3">
+    <label for="TaskDescription" class="form-label">Tarefa</label>
+    <textarea class="form-control" id="taskDescription" rows="3"></textarea>
+  </div>
+    <button type="submit" class="btn btn-primary" asp-action='SalvaTarefa'>Salva</button>
+
+  <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">@ViewData["Cabecalho"]</div>
+  <div class="card-body">
+    <h5 class="card-title">@ViewData["Title"]</h5>
+    <p class="card-text">@ViewData["Descricao"]</p>
+  </div>
+  <div>
+    <p></p>@ViewData["Tarefa"]</p>
+  </div>
+</form>
