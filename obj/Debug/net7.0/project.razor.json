@@ -18650,11 +18650,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ALUNO\\Desktop\\aspnetfundamentos\\GerenciaTarefa\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ALUNO\\Desktop\\aspnetfundamentos\\GerenciaTarefa\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
